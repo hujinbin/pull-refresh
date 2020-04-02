@@ -7,7 +7,12 @@
 <body>
 
 <div id="app">
-  
+  <pull-refresh @refresh="refresh">
+    <div class="content">
+      <p class="text">基础用法</p>
+      刷新次数：{{ num }}
+    </div>
+  </pull-refresh>
 </div>
 
 <script src="./src/app.js"></script>
