@@ -14,7 +14,7 @@ new Vue({
         refresh (done) {
             setTimeout(() => {
               this.num++
-              done()    //我就想说这里，把状态归0
+              done()    //把状态归0
             }, 500)
         }
     }
