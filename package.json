@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "parcel index.html --no-cache",
     "build": "parcel build index.js --no-cache",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "parcel build test/* --no-cache --no-minify & karma start --single-run"
   },
   "author": "",
   "license": "ISC",
@@ -21,6 +21,7 @@
     "vue-template-compiler": "^2.6.10"
   },
   "dependencies": {
+    "karma-coverage": "^2.0.2",
     "vue-hot-reload-api": "^2.3.4"
   },
   "alias": {
