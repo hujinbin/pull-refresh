@@ -1,5 +1,5 @@
 {
-  "name": "pull-refresh",
+  "name": "pull-refresh-vue",
   "version": "0.0.1",
   "description": "下拉刷新组件",
   "main": "./dist/index.js",
