@@ -11,7 +11,7 @@
     "test": "parcel build test/* --no-cache --no-minify & karma start --single-run"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@vue/component-compiler-utils": "^3.0.0",
     "cssnano": "^4.1.10",
