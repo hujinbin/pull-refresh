@@ -11,7 +11,7 @@
     @mouseup="end"
   >
     <div class="pull-refreshing-box">
-      <div v-if="moveState < 2">{{ moveState === 0 ? '下拉即可刷新...' : '释放即可刷新...' }}</div>
+      <div class="pull" v-if="moveState < 2">{{ moveState === 0 ? '下拉即可刷新...' : '释放即可刷新...' }}</div>
       <div v-else>
         <span class="loading"> 加载中...</span>
       </div>
